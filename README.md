@@ -1,0 +1,2 @@
+# ANDROID
+Android practices repository.
