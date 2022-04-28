@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/angel/Documents/GIT/ANDROID/Login/app/src/main/res/layout/login_fragment.xml" value="0.3625" />
+        <entry key="..\:/Users/angel/Documents/GIT/ANDROID/Login/app/src/main/res/layout/login_fragment.xml" value="0.22" />
         <entry key="..\:/Users/angel/Documents/GIT/ANDROID/Login/app/src/main/res/layout/main_activity.xml" value="0.1" />
         <entry key="..\:/Users/angel/Documents/GIT/ANDROID/Login/app/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/angel/Documents/GIT/ANDROID/Login/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>

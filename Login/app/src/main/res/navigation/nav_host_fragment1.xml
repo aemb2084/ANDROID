@@ -19,5 +19,12 @@
         android:id="@+id/mainFragment"
         android:name="com.example.login.ui.main.MainFragment"
         android:label="main_fragment"
-        tools:layout="@layout/main_fragment" />
+        tools:layout="@layout/main_fragment" >
+        <argument
+            android:name="user"
+            app:argType="com.example.login.ui.login.user" />
+        <action
+            android:id="@+id/action_mainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 </navigation>
