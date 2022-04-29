@@ -8,4 +8,7 @@
     <string name="about">About</string>
     <string name="logout">Logout</string>
     <string name="accountDelete">Delete Account</string>
+    <string name="ConformEmail">Please confirm your email in your inbox.</string>
+    <string name="LoginSuccess">Successfully logged in!.</string>
+    <string name="AboutApp">About app.!</string>
 </resources>

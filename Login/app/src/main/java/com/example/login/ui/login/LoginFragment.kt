@@ -58,7 +58,7 @@ class LoginFragment : Fragment(), View.OnClickListener{
     private fun registerFeedback(register: registerStatus){
 
         if (register.status){
-            Toast.makeText(context,"Succesfull signed up!.", Toast.LENGTH_LONG).show()
+            Toast.makeText(context,getString(R.string.ConformEmail), Toast.LENGTH_LONG).show()
         } else {
             Toast.makeText(context,"Error: ${register.detail}", Toast.LENGTH_LONG).show()
         }
@@ -66,7 +66,7 @@ class LoginFragment : Fragment(), View.OnClickListener{
 
     private fun loginFeedback(login: loginStatus){
        if (login.status){
-           Toast.makeText(context, "Successfully logged in!. ", Toast.LENGTH_LONG).show()
+           Toast.makeText(context, getString(R.string.LoginSuccess), Toast.LENGTH_LONG).show()
            val bundle = bundleOf("user" to login.user)
            navController!!.navigate(R.id.action_loginFragment_to_mainFragment, bundle)
        } else {

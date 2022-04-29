@@ -7,9 +7,9 @@ data class credentials (var email: String, var password: String)
 
 @Parcelize
 data class user (
-    var name: String,
-    var email: String,
-    var uid: String
+    var name: String?,
+    var email: String?,
+    var uid: String?
     ): Parcelable
 
 data class registerStatus(var status: Boolean, var detail: String)

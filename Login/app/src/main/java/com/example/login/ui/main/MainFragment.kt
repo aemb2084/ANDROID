@@ -69,7 +69,8 @@ class MainFragment : Fragment() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         when(item.itemId){
-            R.id.about -> Toast.makeText(context, "About app.!", Toast.LENGTH_LONG).show()
+//            R.id.about -> Toast.makeText(context, "About app.!", Toast.LENGTH_LONG).show()
+            R.id.about -> Toast.makeText(context, getString(R.string.AboutApp), Toast.LENGTH_LONG).show()
             R.id.logout -> viewModel.logout()
             R.id.delete -> Log.i(TAG, "Delete button")
         }
